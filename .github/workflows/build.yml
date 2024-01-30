@@ -1,12 +1,7 @@
 name: build
 
 on:
-  push:
-    branches:
-      - '*'
-  pull_request:
-    branches:
-      - '*'
+  workflow_dispatch:
 env:
   CACHE_VERSION: 20230704
   PAWPAW_VERSION: 6a3c6a65a89abe221858c3f7635140074506bfc3
